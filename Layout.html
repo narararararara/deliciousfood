@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Layout</title>
+    <style>
+        #somtum{width:250px;border-bottom: 15px solid #9097B1 ;
+        border-radius: 30px}
+        #Larb{width:250px;border-bottom: 15px solid #9097B1 ;
+        border-radius: 30px}
+        #Koi{width:250px;border-bottom: 15px solid #9097B1 ;
+        border-radius: 30px}
+        #om{width:250px;border-bottom: 15px solid #9097B1 ;
+        border-radius: 30px}
+        #bambo{width:250px;border-bottom: 15px solid #9097B1 ;
+        border-radius: 30px}
+        header{
+            background-color: #a7d9ff;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 9px solid #84ABCB;
+            border-top:9px solid #84ABCB;
+            border-left: 60px solid #657690;
+            border-right: 60px solid #657690;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+            font-style:#657690;
+        font-size: 25px}
+        
+        nav{
+            background-color:aliceblue; 
+            padding: 10px; 
+            text-align: center;
+            border-bottom: #34355F
+        }
+        
+        nav ul{
+            display: flex;
+            gap:20px;
+            list-style: none;
+            justify-content: center;
+            padding:10px;
+            margin:0;
+        }
+        
+        nav a{
+            color:#17191B; 
+            text-decoration: none; 
+            font-weight: bolder
+        }
+        
+        nav a:hover{color: cornflowerblue;font-size: 20px;transform: translate(5px)}
+    
+        main { display: flex; flex-grow: 1; padding: 20px; gap: 20px; }
+        section { background-color: #fff; border: 1px solid #ddd; padding: 20px; flex: 3; }
+        
+         #thailand{width: 400px;
+             border-bottom: 15px solid #9097B1 ;
+        border-radius: 50px}
+        
+        body { font-family: sans-serif; margin: 0; display: flex; flex-direction: column; min-height: 100vh; }
+        header { background-color: #a7d9ff; padding: 15px; text-align: center; border-bottom: 2px solid #007bff; }
+        nav { background-color: #6c757d; padding: 10px; text-align: center; }
+        nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 20px; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        main { display: flex; flex-grow: 1; padding: 20px; gap: 20px; }
+        section { background-color: #fff; border: 1px solid #ddd; padding: 20px; flex: 3; }
+        article { background-color: #f0f0f0; border: 1px dashed #ccc; padding: 15px; margin-bottom: 15px; }
+        aside { background-color: #e9ecef; border: 1px solid #bbb; padding: 20px; flex: 1; }
+        footer { background-color: #007bff; color: white; padding: 15px; text-align: center; margin-top: auto;}
+        
+        
+        .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: sans-serif;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card h4 {
+    color:;
+    margin-top: 0;
+    </style>
+</head>
+    
+<body>
+    <header>
+        <h1>Delicious Food Guide WOW</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Info</a></li>
+        
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+        <h2>Top 5 Most Delicious Isan Food in Thailand</h2>
+            <p> Known for its vibrant culture, Northeastern Thailand or Isan is also the region to savour some unique Thai dishes.<br> Because it’s very hot and humid in the area, the cuisine relies heavily on the method of preservation and fermentation and the food is also characterised by local herbs, vegetables and spices.</p>
+            </section>
+        
+    </main>
+    
+        <div class="card-grid">
+  <div class="card"><h4>1. Somtum</h4>
+      <a href="https://www.google.com/search?sca_esv=11f057e0db4ad2a5&rlz=1C1CHBF_enTH1148TH1148&tbm=lcl&q=somtum+thailand&rflfq=1&num=10&sa=X&sqi=2&ved=2ahUKEwiIyc2QlK-OAxXr-DgGHWUXJgUQjGp6BAgmEAE&biw=1920&bih=945&dpr=1#rlfi=hd:;si:;mv:[[13.7719398,100.72647630000002],[13.6186381,100.4781196]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9">
+                <img src="Somtum.png" id="somtum" alt="somtum">
+                </a>
+      <p>Also known as Thai papaya salad, there are many versions of this iconic dish, but the heart of this dish lies in the fresh, crisp green papaya slices that are mixed with the likes of local tomatoes, chilli, garlic and fish sauce.</p></div>
+            
+  <div class="card"><h4>2. Larb</h4><a href="https://www.google.com/search?q=larb+thailand&sca_esv=11f057e0db4ad2a5&rlz=1C1CHBF_enTH1148TH1148&biw=1920&bih=945&tbm=lcl&ei=Sw1uaMbtJvmF4-EPwKGF4Ao&ved=0ahUKEwiGv_2SlK-OAxX5wjgGHcBQAawQ4dUDCAo&uact=5&oq=larb+thailand&gs_lp=Eg1nd3Mtd2l6LWxvY2FsIg1sYXJiIHRoYWlsYW5kMggQABgTGAcYHjIIEAAYExgHGB4yBxAAGIAEGBMyCBAAGBMYBxgeMggQABgTGAcYHjIIEAAYExgHGB4yBhAAGBMYHjIIEAAYExgFGB4yCBAAGBMYBRgeMggQABgTGAgYHkjjDlCaCFj1DHAAeACQAQCYAV6gAaEEqgEBN7gBA8gBAPgBAZgCB6ACxgTCAgIQJsICCBAAGIAEGKIEwgIGEAAYBxgewgIKEAAYgAQYsQMYDcICDRAAGIAEGLEDGIMBGA3CAgcQABiABBgNwgIJEAAYgAQYExgNwgIKEAAYExgIGA0YHpgDAIgGAZIHATegB8McsgcBN7gHxgTCBwUwLjEuNsgHHg&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[13.9098671,100.6387453],[13.672599199999999,100.51337389999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9">
+                <img src="Larb.png" id="Larb" alt="Larb">
+                </a>
+      <p>Another typical Isan dish, larb is made with minced meat, usually pork, duck, beef or chicken mixed with ground toasted rice, shallots, spring onions, mint leaves and seasoned with chilli, lime juice and either fish sauce or pla ra.</p></div>
+            
+  <div class="card"><h4>3. Koi</h4><a href="https://www.google.com/maps/search/%E0%B8%A5%E0%B8%B2%E0%B8%9A%E0%B8%81%E0%B9%89%E0%B8%AD%E0%B8%A2%E0%B8%AD%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%99/@13.7405649,100.6218514,13z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDcwNi4wIKXMDSoASAFQAw%3D%3D">
+                <img src="Koi.png" id="Koi" alt="Koi">
+                </a><p>Basically raw meat salad, minced or cut into small pieces. It is typically made with red meat such as beef, water buffalo, venison, fish, shrimp and ant larvae, with similar ingredients as larb. </p></div>
+            
+  <div class="card"><h4>4. Om</h4><a href="https://www.google.com/maps/place/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%81%E0%B8%87%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%A1+%E0%B8%AD%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%99+%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B23/@13.7859969,100.6384342,17z/data=!3m1!4b1!4m6!3m5!1s0x311d6346cee38a89:0x8cdc7c53467b072a!8m2!3d13.7859917!4d100.6410091!16s%2Fg%2F11ry4f0_mj?entry=ttu&g_ep=EgoyMDI1MDcwNi4wIKXMDSoASAFQAw%3D%3D">
+                <img src="om.jpg" id="om" alt="om">
+                </a><p>Isaan curry with several options of meat like chicken, frog, pork, catfish and pond snail. The base chilli paste is made with shallots, lemongrass and chilli, and local herbs like culantro and lemon basil. </p></div>
+            
+  <div class="card"><h4>5. Bamboo Shoot soup with yanang leaves</h4> <a href="https://hungryinthailand.com/thai-bamboo-soup/">
+                <img src="bamboo.jpg" id="bambo" alt="bambo">
+                </a><p>Simply made from freshly-pounded paste. Fresh bamboo shoots—the main component of the dish—need to be boiled beforehand to reduce its bitterness, while the dark green broth comes from yanang leaves. </p>
+            </div>
+</div>
+    
+    
+</body>
+</html>
